@@ -51,17 +51,17 @@ const SEGMENTS = [
 export const Route = createFileRoute("/industries")({
   head: () => ({
     meta: [
-      { title: "Industries We Serve | RegPromo Lens" },
+      { title: "Industries We Serve | ComplyStep" },
       {
         name: "description",
         content:
           "Purpose-built for the UK's most regulated sectors: financial advice, private healthcare, legal services, gambling affiliates and agencies.",
       },
-      { property: "og:title", content: "Industries We Serve | RegPromo Lens" },
+      { property: "og:title", content: "Industries We Serve | ComplyStep" },
       {
         property: "og:description",
         content:
-          "See how RegPromo Lens supports UK regulated SMEs underserved by enterprise-only RegTech tools.",
+          "See how ComplyStep supports UK regulated SMEs underserved by enterprise-only RegTech tools.",
       },
     ],
   }),

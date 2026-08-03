@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div className="footer-grid">
           <div className="f-brand">
             <Link to="/" className="nav-logo">
-              RegPromo Lens
+              ComplyStep
             </Link>
             <p>
               AI compliance platform helping UK regulated brands verify, monitor and optimise
@@ -55,7 +55,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="footer-bar">
-          <p>© 2026 RegPromo Lens · London, UK · Founded by Janki Rathod</p>
+          <p>© 2026 ComplyStep · London, UK · Founded by Janki Rathod</p>
           <div className="footer-links">
             <Link to="/privacy">Privacy Policy</Link>
             <Link to="/terms">Terms of Service</Link>

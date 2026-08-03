@@ -3,16 +3,16 @@ import { useState, type FormEvent } from "react";
 
 const FAQS = [
   {
-    q: "What does RegPromo Lens actually do?",
+    q: "What does ComplyStep actually do?",
     a: "We review promotions before they go live and monitor them continuously once published, combining AI compliance checks with UK-specific regulatory rules.",
   },
   {
     q: "Do I need to replace my marketing stack?",
-    a: "No. RegPromo Lens sits above Google Ads, Meta Ads Manager, TikTok and your CMS; you keep your current tools.",
+    a: "No. ComplyStep sits above Google Ads, Meta Ads Manager, TikTok and your CMS; you keep your current tools.",
   },
   {
     q: "How is this different from ChatGPT or Claude?",
-    a: "Generic AI platforms lack UK-specific regulatory training. RegPromo Lens is trained on FCA, CAP and DMCC Act data, with a closed-loop verification architecture.",
+    a: "Generic AI platforms lack UK-specific regulatory training. ComplyStep is trained on FCA, CAP and DMCC Act data, with a closed-loop verification architecture.",
   },
   {
     q: "How long does onboarding take?",
@@ -32,13 +32,13 @@ const BUSINESS_TYPES = [
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Book a Demo | RegPromo Lens" },
+      { title: "Book a Demo | ComplyStep" },
       {
         name: "description",
         content:
-          "Book a demo of RegPromo Lens and see how UK regulated brands protect their compliance equity across every campaign.",
+          "Book a demo of ComplyStep and see how UK regulated brands protect their compliance equity across every campaign.",
       },
-      { property: "og:title", content: "Book a Demo | RegPromo Lens" },
+      { property: "og:title", content: "Book a Demo | ComplyStep" },
       {
         property: "og:description",
         content:
@@ -70,7 +70,7 @@ function Contact() {
           <div className="eyebrow">
             <span className="dot" /> Get In Touch
           </div>
-          <h2 className="h2">Book a demo of RegPromo Lens.</h2>
+          <h2 className="h2">Book a demo of ComplyStep.</h2>
           <div className="contact-wrap">
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
@@ -110,7 +110,7 @@ function Contact() {
             <div className="contact-info">
               <h3>Let's protect your compliance equity.</h3>
               <p className="sub">
-                Our team will walk you through how RegPromo Lens fits your campaigns.
+                Our team will walk you through how ComplyStep fits your campaigns.
               </p>
               <div className="c-detail">
                 <div className="ic">

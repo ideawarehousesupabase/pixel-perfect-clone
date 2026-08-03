@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
+import logoAsset from "@/assets/complystep-logo.png.asset.json";
 
 export const NAV_ITEMS = [
   { to: "/", label: "Home" },
@@ -23,7 +24,11 @@ export function SiteNav() {
     <>
       <nav className="navbar">
         <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
-          RegPromo Lens
+          <img
+            src={logoAsset.url}
+            alt="ComplyStep"
+            style={{ height: 30, width: "auto", display: "block" }}
+          />
         </Link>
         <ul className="nav-links">
           {NAV_ITEMS.map((item) => (

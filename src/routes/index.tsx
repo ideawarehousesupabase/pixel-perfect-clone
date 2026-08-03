@@ -72,7 +72,7 @@ const TRUST = ["FCA Consumer Duty", "CAP & ASA Codes", "DMCC Act 2024", "UK GDPR
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RegPromo Lens | Compliance Platform for Regulated Marketing" },
+      { title: "ComplyStep | Compliance Platform for Regulated Marketing" },
       {
         name: "description",
         content:
@@ -80,7 +80,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "RegPromo Lens | Compliance Platform for Regulated Marketing",
+        content: "ComplyStep | Compliance Platform for Regulated Marketing",
       },
       {
         property: "og:description",
@@ -104,7 +104,7 @@ function Home() {
             Ship compliant campaigns <span className="accent">without the bottleneck.</span>
           </h1>
           <p className="lede">
-            RegPromo Lens reviews financial, health, legal and gambling promotions before they
+            ComplyStep reviews financial, health, legal and gambling promotions before they
             go live, and monitors them continuously once published, so marketing moves fast and
             compliance stays in control.
           </p>
@@ -190,9 +190,9 @@ function Home() {
       <section className="sec">
         <div className="container">
           <div className="cta-banner">
-            <h2 className="h2">See RegPromo Lens in action.</h2>
+            <h2 className="h2">See ComplyStep in action.</h2>
             <p>
-              Join UK financial, healthcare, legal and gambling brands using RegPromo Lens to
+              Join UK financial, healthcare, legal and gambling brands using ComplyStep to
               launch faster, with less risk.
             </p>
             <Link to="/contact" className="btn-p">
