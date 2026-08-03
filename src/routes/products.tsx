@@ -59,17 +59,17 @@ const ROWS: Array<[string, string, string, string]> = [
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
-      { title: "Products & Pricing | RegPromo Lens" },
+      { title: "Products & Pricing | ComplyStep" },
       {
         name: "description",
         content:
           "Plans from £100/mo that scale with your compliance needs, from pre-publication screening to full cross-channel drift monitoring.",
       },
-      { property: "og:title", content: "Products & Pricing | RegPromo Lens" },
+      { property: "og:title", content: "Products & Pricing | ComplyStep" },
       {
         property: "og:description",
         content:
-          "Compare RegPromo Lens plans and see how purpose-built UK compliance beats generic AI tools and legacy RegTech.",
+          "Compare ComplyStep plans and see how purpose-built UK compliance beats generic AI tools and legacy RegTech.",
       },
     ],
   }),
@@ -137,7 +137,7 @@ function Products() {
                   <th>Generic AI Tools</th>
                   <th>Legacy RegTech</th>
                   <th>Workflow Tools</th>
-                  <th className="hi">RegPromo Lens</th>
+                  <th className="hi">ComplyStep</th>
                 </tr>
               </thead>
               <tbody>

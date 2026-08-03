@@ -23,7 +23,7 @@ export function SiteNav() {
     <>
       <nav className="navbar">
         <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
-          RegPromo Lens
+          ComplyStep
         </Link>
         <ul className="nav-links">
           {NAV_ITEMS.map((item) => (

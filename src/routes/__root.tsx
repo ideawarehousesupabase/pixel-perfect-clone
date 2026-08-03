@@ -24,7 +24,7 @@ function NotFoundComponent() {
           <h2 className="h2">This page doesn't exist.</h2>
           <p className="lede">
             The page you're looking for has moved or never existed. Head back to the
-            RegPromo Lens homepage.
+            ComplyStep homepage.
           </p>
           <a href="/" className="btn-p" style={{ marginTop: 28 }}>
             Go home
@@ -75,13 +75,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "RegPromo Lens | Compliance Platform for Regulated Marketing" },
+      { title: "ComplyStep | Compliance Platform for Regulated Marketing" },
       {
         name: "description",
         content:
-          "RegPromo Lens reviews UK financial, health, legal and gambling promotions before they go live and monitors them continuously once published.",
+          "ComplyStep reviews UK financial, health, legal and gambling promotions before they go live and monitors them continuously once published.",
       },
-      { name: "author", content: "RegPromo Lens" },
+      { name: "author", content: "ComplyStep" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

@@ -27,7 +27,7 @@ const POSTS = [
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Blog: UK Marketing Compliance Insights | RegPromo Lens" },
+      { title: "Blog: UK Marketing Compliance Insights | ComplyStep" },
       {
         name: "description",
         content:
@@ -37,7 +37,7 @@ export const Route = createFileRoute("/blog")({
       {
         property: "og:description",
         content:
-          "Articles on UK regulated marketing compliance from the RegPromo Lens team.",
+          "Articles on UK regulated marketing compliance from the ComplyStep team.",
       },
     ],
   }),

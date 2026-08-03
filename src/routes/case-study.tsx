@@ -28,17 +28,17 @@ const ROADMAP = [
 export const Route = createFileRoute("/case-study")({
   head: () => ({
     meta: [
-      { title: "Case Study: 8-Week London Pilot | RegPromo Lens" },
+      { title: "Case Study: 8-Week London Pilot | ComplyStep" },
       {
         name: "description",
         content:
           "Results from an 8-week pilot across 5 regulated London business locations: 28% faster launches and 18% fewer compliance violations.",
       },
-      { property: "og:title", content: "Case Study: 8-Week London Pilot | RegPromo Lens" },
+      { property: "og:title", content: "Case Study: 8-Week London Pilot | ComplyStep" },
       {
         property: "og:description",
         content:
-          "Pilot results and the RegPromo Lens roadmap from London soft launch to national scale and EU pilots.",
+          "Pilot results and the ComplyStep roadmap from London soft launch to national scale and EU pilots.",
       },
     ],
   }),
@@ -55,7 +55,7 @@ function CaseStudy() {
           </div>
           <h2 className="h2">An 8-week London pilot, proven results.</h2>
           <p className="lede" style={{ maxWidth: 640 }}>
-            RegPromo Lens ran an 8-week pilot across 5 regulated business locations in London,
+            ComplyStep ran an 8-week pilot across 5 regulated business locations in London,
             testing live campaigns from financial advisors, private clinics and boutique agencies.
           </p>
           <div className="stat-bar" style={{ marginTop: 40 }}>

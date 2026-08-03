@@ -3,13 +3,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/regulatory-compliance")({
   head: () => ({
     meta: [
-      { title: "Regulatory Compliance | RegPromo Lens" },
+      { title: "Regulatory Compliance | ComplyStep" },
       {
         name: "description",
         content:
-          "How RegPromo Lens keeps UK regulated marketers aligned with FCA, CAP, ASA and DMCC Act requirements with a timestamped audit trail.",
+          "How ComplyStep keeps UK regulated marketers aligned with FCA, CAP, ASA and DMCC Act requirements with a timestamped audit trail.",
       },
-      { property: "og:title", content: "Regulatory Compliance | RegPromo Lens" },
+      { property: "og:title", content: "Regulatory Compliance | ComplyStep" },
       {
         property: "og:description",
         content:
@@ -30,7 +30,7 @@ function RegulatoryCompliance() {
           </div>
           <h2 className="h2">Regulatory Compliance</h2>
           <p className="lede" style={{ maxWidth: 640 }}>
-            RegPromo Lens helps UK regulated marketers stay aligned with FCA, CAP, ASA and DMCC Act
+            ComplyStep helps UK regulated marketers stay aligned with FCA, CAP, ASA and DMCC Act
             requirements. Every approval decision is logged with a timestamped, exportable audit
             trail, ready for regulator enquiries, though the operator remains legally responsible
             for final publishing decisions.
