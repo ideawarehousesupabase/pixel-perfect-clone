@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import logoAsset from "@/assets/complystep-logo.png.asset.json";
+
 
 export const NAV_ITEMS = [
   { to: "/", label: "Home" },
