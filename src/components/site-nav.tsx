@@ -23,7 +23,11 @@ export function SiteNav() {
     <>
       <nav className="navbar">
         <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
-          ComplyStep
+          <img
+            src={logoAsset.url}
+            alt="ComplyStep"
+            style={{ height: 30, width: "auto", display: "block" }}
+          />
         </Link>
         <ul className="nav-links">
           {NAV_ITEMS.map((item) => (
