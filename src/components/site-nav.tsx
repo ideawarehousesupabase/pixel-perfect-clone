@@ -25,7 +25,7 @@ export function SiteNav() {
       <nav className="navbar">
         <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
           <img
-            src={logoAsset.url}
+            src="/complystep-logo.png"
             alt="ComplyStep"
             width={782}
             height={146}
