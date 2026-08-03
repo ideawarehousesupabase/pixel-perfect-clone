@@ -27,9 +27,14 @@ export function SiteNav() {
           <img
             src={logoAsset.url}
             alt="ComplyStep"
-            style={{ height: 30, width: "auto", display: "block" }}
+            width={782}
+            height={146}
+            loading="eager"
+            decoding="sync"
+            style={{ height: 34, width: "auto", display: "block", maxWidth: "100%" }}
           />
         </Link>
+
         <ul className="nav-links">
           {NAV_ITEMS.map((item) => (
             <li key={item.to}>
